@@ -1,0 +1,23 @@
+{
+  "name": "NodeAngularApp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NamitaMalik/NodeAngularApp",
+  "authors": [
+    "Namita Malik <namita1990@gmail.com>"
+  ],
+  "description": "This is a demo app for learning purpose.",
+  "main": "index.html",
+  "keywords": [
+    "NodeJS",
+    "AngularJS",
+    "ExpressJS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
