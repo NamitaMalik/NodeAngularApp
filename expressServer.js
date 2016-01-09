@@ -5,7 +5,10 @@
 (function(require){
     var express = require('express');
     var app = express();
+
     app.use(express.static('public'));
+    app.use(express.static('bower_components'));
+
     app.use(function(req,res,next){
         console.log(req.method,req.url,req.originalUrl);
         next();
